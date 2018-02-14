@@ -1,0 +1,598 @@
+body {
+  background: #fff;
+}
+
+/* line 6 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\det-proyecto.styl */
+.head-tit {
+  margin: 0;
+  padding: 40px 0 90px 0;
+  
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+.head-tit.bcp{
+  background: url("../img/proyectos/proyecto-bcp-bg.jpg") center -220px  no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+.head-tit.perutravel{
+  background: url("../img/proyectos/proyecto-perutravel-bg.jpg") center -220px no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+.head-tit.cinemark{
+  background: url("../img/proyectos/proyecto-cinemark-bg.jpg") center -190px no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+.head-tit.poett{
+  background: url("../img/proyectos/proyecto-poett-bg.jpg") center -190px no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+.head-tit.ytqp{
+  background: url("../img/proyectos/proyecto-ytqp-bg.jpg") center -190px no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+.head-tit.florafauna{
+  background: url("../img/proyectos/proyecto-flora-bg.jpg") center -190px no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  .head-tit {
+    padding: 40px 0 70px 0;
+  }
+}
+
+/* line 14 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\det-proyecto.styl */
+.head-tit h2 {
+  font-size: 2.625rem;
+  color: #fff;
+  padding: 10px 0;
+}
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  .head-tit h2 {
+    display: none;
+  }
+}
+
+/* line 20 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\det-proyecto.styl */
+.descripcion-general {
+  padding: 28px 0 50px 0;
+}
+
+/* line 22 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\det-proyecto.styl */
+.descripcion-general .contenedor {
+  max-width: 1075px;
+  margin: 0 auto;
+}
+
+/* line 25 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\det-proyecto.styl */
+.descripcion-general .logo-proyecto {
+  margin: 0 0 15px 0;
+}
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  .descripcion-general .logo-proyecto {
+    width: 100px;
+    margin: 0 auto 15px auto;
+  }
+}
+
+/* line 31 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\det-proyecto.styl */
+.descripcion-general .informacion {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+}
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  .descripcion-general .informacion {
+    display: block;
+  }
+}
+
+/* line 35 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\det-proyecto.styl */
+.descripcion-general .informacion >div {
+  padding: 0 35px;
+  max-width: 600px;
+}
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  .descripcion-general .informacion >div {
+    padding: 0 15px;
+  }
+}
+
+/* line 40 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\det-proyecto.styl */
+.descripcion-general .informacion >div p {
+  text-align: justify;
+  font-size: 1.03125rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  color: #696969;
+}
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  .descripcion-general .informacion >div p {
+    font-size: 0.84375rem;
+  }
+}
+
+/* line 48 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\det-proyecto.styl */
+.descripcion-general .informacion .servicios-empl {
+  margin-top: 60px;
+}
+
+/* line 50 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\det-proyecto.styl */
+.descripcion-general .informacion .servicios-empl.serv-emp-1 {
+  display: block;
+}
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  .descripcion-general .informacion .servicios-empl.serv-emp-1 {
+    display: none;
+  }
+}
+
+/* line 55 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\det-proyecto.styl */
+.descripcion-general .informacion .servicios-empl.serv-emp-2 {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  .descripcion-general .informacion .servicios-empl.serv-emp-2 {
+    display: block;
+  }
+}
+
+/* line 59 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\det-proyecto.styl */
+.descripcion-general .informacion .servicios-empl h5 {
+  color: #fd8e00;
+  font-size: 1.0875rem;
+  font-weight: 500;
+}
+
+/* line 63 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\det-proyecto.styl */
+.descripcion-general .informacion .servicios-empl .resultados {
+  margin-top: 10px;
+}
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  .descripcion-general .informacion .servicios-empl .resultados {
+    text-align: center;
+  }
+}
+
+/* line 67 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\det-proyecto.styl */
+.descripcion-general .informacion .servicios-empl .resultados li {
+  text-align: center;
+  display: inline-block;
+  width: 32.3333%;
+  vertical-align: top;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  margin-bottom: 8px;
+}
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  .descripcion-general .informacion .servicios-empl .resultados li {
+    width: 48%;
+  }
+}
+
+/* line 77 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\det-proyecto.styl */
+.descripcion-general .informacion .servicios-empl .resultados li span {
+  color: #fd8e00;
+  display: block;
+  font-size: 1.5625rem;
+  font-family: "Bariol";
+  line-height: normal;
+  margin-bottom: 5px;
+}
+
+/* line 86 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\det-proyecto.styl */
+.descripcion-general .subtit {
+  color: #fd8e00;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 30px 0 20px 0;
+}
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  .descripcion-general .subtit {
+    font-size: 1.375rem;
+    margin: 10px 0 10px 0;
+  }
+}
+
+/* line 95 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\det-proyecto.styl */
+#vistas-web {
+  background: #fd8e00;
+  padding: 60px 0;
+  color: #fff;
+}
+
+/* line 99 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\det-proyecto.styl */
+#vistas-web .dispositivos {
+  min-height: 455px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 104 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\det-proyecto.styl */
+#vistas-web .lapto {
+  background: url("../img/proyectos/lapto-vistas.png") no-repeat;
+  width: 735px;
+  height: 434px;
+  margin: 0 auto;
+  padding: 25px 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  #vistas-web .lapto {
+    width: 305px;
+    height: 110px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+  }
+}
+
+/* line 115 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\det-proyecto.styl */
+#vistas-web .lapto .cnt-view {
+  max-width: 522px;
+  height: 325px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  #vistas-web .lapto .cnt-view {
+    max-width: 230px;
+    height: 205px;
+  }
+}
+
+#vistas-web .lapto .cnt-view figure{
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+
+  animation: 6s slide-min infinite; 
+}
+#vistas-web .lapto .cnt-view figure img { width: 20%; float: left; }
+
+
+
+
+/* line 126 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\det-proyecto.styl */
+#vistas-web .lapto .cnt-view .slide-inner {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 134 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\det-proyecto.styl */
+#vistas-web .lapto .cnt-view .swiper-container {
+  height: 336px;
+}
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  #vistas-web .lapto .cnt-view .swiper-container {
+    height: 105px;
+  }
+}
+
+/* line 138 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\det-proyecto.styl */
+#vistas-web .lapto .cnt-view .swiper-slide {
+  overflow: hidden;
+}
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  #vistas-web .lapto .cnt-view .swiper-slide {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+  }
+}
+
+/* line 143 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\det-proyecto.styl */
+#vistas-web .mobile {
+  /*background: url("../img/sombra-celulares.png") no-repeat center bottom;*/
+  width: 100%;
+  padding-bottom: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+#vistas-web .sombra{
+  content: '';
+  display: block;
+  background: url("../img/sombra-celulares.png") no-repeat center bottom;
+   width: 100%;
+  height: 45px;
+  bottom: -10px;
+  opacity: 0;
+  z-index: 9999;
+  position: absolute;
+  animation: agrandar 5s;
+  animation-delay: 650ms;
+  animation-fill-mode: forwards;
+
+}
+
+/* line 149 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\det-proyecto.styl */
+#vistas-web .mobile .cell {
+  width: 239px;
+  height: 426px;
+  margin: 0 auto;
+  padding: 22px 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url("../img/celular-blanco.png") no-repeat;
+}
+
+/* line 156 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\det-proyecto.styl */
+#vistas-web .mobile .cell .cnt-view {
+  width: 182px;
+  margin: 30px auto 0 auto;
+  position: relative;
+}
+
+/* line 160 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\det-proyecto.styl */
+#vistas-web .mobile .cell .cnt-view .pag2 {
+  position: absolute;
+  top: -12px;
+  left: -220px;
+  -webkit-animation-duration: 1.5s;
+  -moz-animation-duration: 1.5s;
+  -o-animation-duration: 1.5s;
+  -ms-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -o-animation-delay: 1s;
+  -ms-animation-delay: 1s;
+  animation-delay: 1s;
+}
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  #vistas-web .mobile .cell .cnt-view .pag2 {
+    display: none;
+  }
+}
+
+/* line 166 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\det-proyecto.styl */
+#vistas-web .mobile .cell .cnt-view .pag3 {
+  position: absolute;
+  top: -12px;
+  right: -220px;
+  -webkit-animation-duration: 1.5s;
+  -moz-animation-duration: 1.5s;
+  -o-animation-duration: 1.5s;
+  -ms-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
+  -o-animation-delay: 1.5s;
+  -ms-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+}
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  #vistas-web .mobile .cell .cnt-view .pag3 {
+    display: none;
+  }
+}
+
+/* line 173 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\det-proyecto.styl */
+#vistas-web .mobile .cell .cnt-view .pag4 {
+  position: absolute;
+  top: -12px;
+  left: -445px;
+  -webkit-animation-duration: 1.5s;
+  -moz-animation-duration: 1.5s;
+  -o-animation-duration: 1.5s;
+  -ms-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  -o-animation-delay: 2s;
+  -ms-animation-delay: 2s;
+  animation-delay: 2s;
+}
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  #vistas-web .mobile .cell .cnt-view .pag4 {
+    display: none;
+  }
+}
+
+/* line 180 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\det-proyecto.styl */
+#vistas-web .mobile .cell .cnt-view .pag5 {
+  position: absolute;
+  top: -12px;
+  right: -445px;
+  -webkit-animation-duration: 1.5s;
+  -moz-animation-duration: 1.5s;
+  -o-animation-duration: 1.5s;
+  -ms-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-delay: 2.5s;
+  -moz-animation-delay: 2.5s;
+  -o-animation-delay: 2.5s;
+  -ms-animation-delay: 2.5s;
+  animation-delay: 2.5s;
+}
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  #vistas-web .mobile .cell .cnt-view .pag5 {
+    display: none;
+  }
+}
+
+/* line 186 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\det-proyecto.styl */
+#vistas-web .btn1 {
+  padding: 12px 20px;
+}
+
+/* line 188 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\det-proyecto.styl */
+#vistas-web .detalle-web {
+  text-align: center;
+  margin: 60px 0 0 0;
+}
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  #vistas-web .detalle-web {
+    display: none;
+  }
+}
+
+/* line 193 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\det-proyecto.styl */
+#vistas-web .detalle-web li {
+  display: inline-block;
+  margin: 0 -2px;
+  width: 33.33333%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 50px;
+  vertical-align: top;
+  font-size: 1.25rem;
+}
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  #vistas-web .detalle-web li {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+/* line 205 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\det-proyecto.styl */
+#vistas-web .detalle-web li h3 {
+  font-weight: 600;
+  font-size: 1.1875rem;
+  margin-bottom: 13px;
+}
+
+/* line 211 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\det-proyecto.styl */
+.compartir {
+  text-align: center;
+  padding: 27px 0 15px 0;
+}
+
+/* line 214 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\det-proyecto.styl */
+.compartir span {
+  display: block;
+  font-weight: 600;
+}
+
+/* line 217 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\det-proyecto.styl */
+.compartir a {
+  margin: 0 4px !important;
+   color: #fff;
+  font-family: "Atkicon";
+  display: inline-block;
+  vertical-align: middle;
+  width: 26px;
+  color: #fd8e00;
+  font-size: 30px;
+}
+.compartir li{
+  display: inline-block;
+  margin: 8px 10px;
+}
+
+
+/* line 219 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\det-proyecto.styl */
+.compartir a .at-icon-wrapper {
+  line-height: 42px !important;
+  height: 42px !important;
+}
+
+/* line 222 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\det-proyecto.styl */
+.compartir a svg {
+  fill: #fd8e00 !important;
+  width: 42px !important;
+  height: 42px !important;
+}
+
+/* line 226 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\det-proyecto.styl */
+.compartir .at-share-btn {
+  padding: 5px 0 !important;
+}
+
+/* line 298 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+@keyframes agrandar {
+
+/* line 299 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+  0% {
+   opacity: 0;
+  }
+
+/* line 301 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+  100% {
+    opacity: 1;
+  
+  }
+}

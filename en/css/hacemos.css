@@ -1,0 +1,1000 @@
+
+#page{
+  position: relative;
+  padding-top:  20px;
+}
+
+.menu .control .icon span,
+.menu .control .icon span:before,
+.menu .control .icon span:after {
+  background: #fff;
+}
+
+.head-tit{
+  margin-top: 15px;
+  margin-bottom:  0;
+}
+ 
+
+/* line 32 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+.informacion {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -o-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  margin: 0 auto;
+  color: #fff;
+}
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  .informacion {
+    display: block;
+  }
+}
+
+/* line 39 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+.informacion .imgx {
+  text-align: center;
+  padding: 0 40px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.informacion .imgx-aparte { padding: 0 10px 0 0; }
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  .informacion .imgx {
+    width: 100%;
+  }
+}
+
+/* line 45 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  .informacion .imgx svg {
+    width: 200px;
+    height: 250px;
+  }
+}
+
+/* line 53 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+.info-servicios {
+  max-width: 900px;
+  margin: 50px auto 0 auto;
+  text-align: center;
+}
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  .info-servicios {
+    height: 760px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 0 12px;
+  }
+}
+
+/* line 63 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+.info-servicios  input {
+  display: none;
+}
+
+/* line 66 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+.info-servicios label {
+  color: #fff;
+  font-family: "Bariol";
+  font-weight: 400;
+  font-size: 1.140625rem;
+  border-bottom: 2px solid rgba(255,255,255,0.3);
+  padding: 5px 0;
+  margin: 0 10px;
+  position: relative;
+  cursor: pointer;
+}
+.info-servicios label:after{
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  content: '';
+  display:  block;
+  width: 0;
+  height: 2px;
+  background:  #fff;
+  transition: 800ms;
+}
+.info-servicios label:hover:after{
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  .info-servicios label {
+    display: block;
+  }
+}
+
+/* line 77 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+
+.info-servicios > input:checked + label {
+  font-weight: 600;
+  border-bottom: 2px solid #fff;
+  cursor: pointer;
+}
+
+/* line 83 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+.info-servicios .tabs {
+  clear: both;
+  position: relative;
+  min-height: 310px;
+  padding: 60px 0 0 0;
+}
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  .info-servicios .tabs {
+    padding: 0;
+  }
+}
+
+/* line 90 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+.info-servicios .tabs > div {
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  display: none;
+  -webkit-transition: opacity 0.5s;
+  -moz-transition: opacity 0.5s;
+  -o-transition: opacity 0.5s;
+  -ms-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+  -webkit-transform: translateY(6px);
+  -moz-transform: translateY(6px);
+  -o-transform: translateY(6px);
+  -ms-transform: translateY(6px);
+  transform: translateY(6px);
+  width: 100%;
+  transition: all .4s
+}
+
+/* line 99 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+.info-servicios .tabs .box-texto {
+  padding: 10px 5px;
+  text-align: center;
+  max-width: 530px;
+  text-align: left;
+}
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  .info-servicios .tabs .box-texto {
+    padding: 0 10px;
+    text-align: center;
+  }
+}
+
+/* line 108 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+.info-servicios .tabs .box-texto p,
+.info-servicios .tabs .box-texto li {
+  font-size: 1.03125rem;
+  line-height: 22px;
+  text-align: justify;
+}
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  .info-servicios .tabs .box-texto p,
+  .info-servicios .tabs .box-texto li {
+    font-size: 0.875rem;
+  }
+}
+
+/* line 116 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+.info-servicios .tabs .box-texto h2 {
+  color: #fff;
+  font-size: 2.34375rem;
+  margin-bottom: 0px;
+}
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  .info-servicios .tabs .box-texto h2 {
+    display: none;
+  }
+}
+
+.info-servicios .tabs .box-texto h3 {
+  color: #fff;
+  font-size: 1.34375rem;
+  margin-bottom: 20px;
+  
+  text-transform:  uppercase;
+}
+
+/* line 122 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+.info-servicios .tabs .box-texto .btn-conoce {
+  text-transform: uppercase;
+  padding: 10px 25px;
+  color: #fff;
+  font-size: 1.125rem;
+  letter-spacing: 0.4px;
+  display: inline-block;
+}
+
+.info-servicios .tabs .box-texto .btn-conoce.btn1 {
+    margin: 40px auto;
+}
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  .info-servicios .tabs .box-texto .btn-conoce.btn1 {
+    margin: 10px auto;
+  }
+}
+
+/* line 132 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  .info-servicios .tabs .box-texto .btn-conoce .tx1 {
+    display: none;
+  }
+}
+
+/* line 135 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+.info-servicios .tabs .box-texto .btn-conoce.creativ1 {
+  background: #439272;
+}
+
+/* line 137 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+.info-servicios .tabs .box-texto .btn-conoce.desarrollo1 {
+  background: #bf7515;
+}
+
+/* line 139 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+.info-servicios .tabs .box-texto .btn-conoce.app1 {
+  background: #3676a9;
+}
+
+/* line 141 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+.info-servicios .tabs .box-texto .btn-conoce.redsocial1 {
+  background: #9a3e3e;
+}
+
+/* line 143 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+ .info-servicios .tabs .box-texto .btn-conoce.digital1 {
+ background: #6265a1;
+}
+
+ .info-servicios .tabs .box-texto .btn-conoce.medios1 {
+ background: #a4a33a;
+}
+
+
+/* line 146 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+.info-servicios .bg-all1 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+/*+hasta( escritorio )
+			height 2900px*/
+}
+
+/* line 157 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+.info-servicios #tab-nav-1:checked ~ .tabs > #tab_1,
+.info-servicios #tab-nav-2:checked ~ .tabs > #tab_2,
+.info-servicios #tab-nav-3:checked ~ .tabs > #tab_3,
+.info-servicios #tab-nav-4:checked ~ .tabs > #tab_4,
+.info-servicios #tab-nav-5:checked ~ .tabs > #tab_5,
+.info-servicios #tab-nav-6:checked ~ .tabs > #tab_6 {
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  -o-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  transform: translateY(0px);
+  -webkit-transition: all 0.3s linear 0.1s;
+  -moz-transition: all 0.3s linear 0.1s;
+  -o-transition: all 0.3s linear 0.1s;
+  -ms-transition: all 0.3s linear 0.1s;
+  transition: all 0.3s linear 0.1s;
+}
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  .info-servicios #tab-nav-1:checked ~ .tabs > #tab_1,
+  .info-servicios #tab-nav-2:checked ~ .tabs > #tab_2,
+  .info-servicios #tab-nav-3:checked ~ .tabs > #tab_3,
+  .info-servicios #tab-nav-4:checked ~ .tabs > #tab_4,
+  .info-servicios #tab-nav-5:checked ~ .tabs > #tab_5,
+  .info-servicios #tab-nav-6:checked ~ .tabs > #tab_6 {
+    display: block;
+  }
+}
+
+/* line 169 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+.info-servicios #tab-nav-1:checked ~ .bg-all1 {
+  background: #98d3b5;
+}
+
+/* line 171 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+.info-servicios #tab-nav-2:checked ~ .bg-all1 {
+  background: #e6aa5d;
+}
+
+/* line 173 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+.info-servicios #tab-nav-3:checked ~ .bg-all1 {
+  background: #78a8ce;
+}
+
+/* line 175 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+.info-servicios #tab-nav-4:checked ~ .bg-all1 {
+  background: #c77e7e;
+}
+
+/* line 177 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+.info-servicios #tab-nav-5:checked ~ .bg-all1 {
+  background: #9c9ec7;
+}
+
+.info-servicios #tab-nav-6:checked ~ .bg-all1 {
+  background: #c7c67b;
+}
+
+/* line 180 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+
+#maquina .lapiz {
+  -webkit-animation: up-mover 4s infinite;
+  -moz-animation: up-mover 4s infinite;
+  -o-animation: up-mover 4s infinite;
+  -ms-animation: up-mover 4s infinite;
+  animation: up-mover 4s infinite;
+  -webkit-animation-delay: 3s;
+  -moz-animation-delay: 3s;
+  -o-animation-delay: 5s;
+  -ms-animation-delay: 3s;
+  animation-delay: 3s;
+}
+
+#maquina .flecha1 {
+  -webkit-animation: desplazar1 3s;
+  -moz-animation: desplazar1 3s;
+  -o-animation: desplazar1 3s;
+  -ms-animation: desplazar1 3s;
+  animation: desplazar1 3s ;
+  -webkit-animation-delay: 250ms;
+  -moz-animation-delay: 250ms;
+  -o-animation-delay: 250ms;
+  -ms-animation-delay: 250ms;
+  animation-delay: 250ms;
+}
+
+/* line 185 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+#maquina .codigo-html {
+  -webkit-animation: opacity1 0.6s;
+  -moz-animation: opacity1 0.6s;
+  -o-animation: opacity1 0.6s;
+  -ms-animation: opacity1 0.6s;
+  animation: opacity1 0.6s;
+  -webkit-animation-delay: 1050ms;
+  -moz-animation-delay: 1050ms;
+  -o-animation-delay: 1050ms;
+  -ms-animation-delay: 1050ms;
+  animation-delay: 1050ms;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+/* line 190 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+#maquina .der-arrow {
+  -webkit-animation: desplazar-der 0.6s;
+  -moz-animation: desplazar-der 0.6s;
+  -o-animation: desplazar-der 0.6s;
+  -ms-animation: desplazar-der 0.6s;
+  animation: desplazar-der 0.6s;
+  -webkit-animation-delay: 950ms;
+  -moz-animation-delay: 950ms;
+  -o-animation-delay: 950ms;
+  -ms-animation-delay: 950ms;
+  animation-delay: 950ms;
+  -webkit-transform: translate(-40px, 0);
+  -moz-transform: translate(-40px, 0);
+  -o-transform: translate(-40px, 0);
+  -ms-transform: translate(-40px, 0);
+  transform: translate(-40px, 0);
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+/* line 195 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+#maquina .izq-arrow {
+  -webkit-animation: desplazar-izq 0.6s;
+  -moz-animation: desplazar-izq 0.6s;
+  -o-animation: desplazar-izq 0.6s;
+  -ms-animation: desplazar-izq 0.6s;
+  animation: desplazar-izq 0.6s;
+  -webkit-animation-delay: 950ms;
+  -moz-animation-delay: 950ms;
+  -o-animation-delay: 950ms;
+  -ms-animation-delay: 950ms;
+  animation-delay: 950ms;
+  -webkit-transform: translate(40px, 0);
+  -moz-transform: translate(40px, 0);
+  -o-transform: translate(40px, 0);
+  -ms-transform: translate(40px, 0);
+  transform: translate(40px, 0);
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+/* line 202 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+#cohete-despegar {
+  display: inline-block;
+  text-align: center;
+  -webkit-transform: translateY(65vh);
+  -moz-transform: translateY(65vh);
+  -o-transform: translateY(65vh);
+  -ms-transform: translateY(65vh);
+  transform: translateY(65vh);
+}
+
+/* line 206 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+#cohete-despegar .mover1 {
+  -webkit-animation: flotar 0.5s infinite;
+  -moz-animation: flotar 0.5s infinite;
+  -o-animation: flotar 0.5s infinite;
+  -ms-animation: flotar 0.5s infinite;
+  animation: flotar 0.5s infinite;
+}
+
+
+ 
+
+
+#cohete-despegar .mover_speed {
+  -webkit-animation: flotar 0.1s infinite;
+  -moz-animation: flotar 0.1s infinite;
+  -o-animation: flotar 0.1s infinite;
+  -ms-animation: flotar 0.1s infinite;
+  animation: flotar 0.1s infinite;
+}
+
+#cohete-despegar .resplandor3 {
+  -webkit-animation: resplandece1 3s infinite;
+  -moz-animation: resplandece1 3s infinite;
+  -o-animation: resplandece1 3s infinite;
+  -ms-animation: resplandece1 3s infinite;
+  animation: resplandece1 3s infinite;
+  -webkit-animation-delay: 290ms;
+  -moz-animation-delay: 290ms;
+  -o-animation-delay: 290ms;
+  -ms-animation-delay: 290ms;
+  animation-delay: 290ms;
+}
+
+/* line 250 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+#cohete-despegar .resplandor2 {
+  -webkit-animation: resplandece1 3s infinite;
+  -moz-animation: resplandece1 3s infinite;
+  -o-animation: resplandece1 3s infinite;
+  -ms-animation: resplandece1 3s infinite;
+  animation: resplandece1 3s infinite;
+  -webkit-animation-delay: 10ms;
+  -moz-animation-delay: 10ms;
+  -o-animation-delay: 10ms;
+  -ms-animation-delay: 10ms;
+  animation-delay: 10ms;
+}
+
+/* line 210 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+#apps {
+  position: relative;
+}
+
+/* line 212 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+.print-app {
+  position: absolute;
+  top: 30px;
+  left: 128px;
+  width: 138px;
+  height: 230px;
+  z-index: 9;
+}
+.print-app .figure{
+  overflow: hidden;
+}
+.print-app figure{
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+
+  animation: 6s slide-min infinite; 
+}
+.print-app figure img { width: 20%; float: left; }
+
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  .print-app {
+    display: none;
+  }
+}
+
+#apps .cuadro-app{
+  -webkit-animation: elevar 2s infinite;
+  -moz-animation: elevar 2s infinite;
+  -o-animation: elevar 2s infinite;
+  -ms-animation: elevar 2s infinite;
+  animation: elevar 2s infinite;
+}
+
+/* line 234 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+#social-icono .manito-like {
+  -webkit-animation: elevar 1.4s infinite;
+  -moz-animation: elevar 1.4s infinite;
+  -o-animation: elevar 1.4s infinite;
+  -ms-animation: elevar 1.4s infinite;
+  animation: elevar 1.4s infinite;
+}
+
+/* line 236 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+#social-icono .corazon {
+  -webkit-animation: elevar 2s infinite;
+  -moz-animation: elevar 2s infinite;
+  -o-animation: elevar 2s infinite;
+  -ms-animation: elevar 2s infinite;
+  animation: elevar 2s infinite;
+}
+
+/* line 238 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+#social-icono .camera1 {
+  -webkit-animation: elevar 2s infinite;
+  -moz-animation: elevar 2s infinite;
+  -o-animation: elevar 2s infinite;
+  -ms-animation: elevar 2s infinite;
+  animation: elevar 2s infinite;
+}
+
+/* line 240 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+#social-icono .yt {
+  -webkit-animation: elevar 2s infinite;
+  -moz-animation: elevar 2s infinite;
+  -o-animation: elevar 2s infinite;
+  -ms-animation: elevar 2s infinite;
+  animation: elevar 2s infinite;
+}
+
+/* line 242 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+#social-icono .twitter {
+ -webkit-animation: elevar 1.4s infinite;
+  -moz-animation: elevar 1.4s infinite;
+  -o-animation: elevar 1.4s infinite;
+  -ms-animation: elevar 1.4s infinite;
+  animation: elevar 1.4s infinite;
+}
+
+/* line 244 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+#signage {
+  -webkit-animation: elevar 0.8s infinite;
+  -moz-animation: elevar 0.8s infinite;
+  -o-animation: elevar 0.8s infinite;
+  -ms-animation: elevar 0.8s infinite;
+  animation: elevar 0.8s infinite;
+  -webkit-transition: cubic-bezier(.17,.67,.98,.61);
+  -moz-transition: cubic-bezier(.17,.67,.98,.61);
+  -o-transition: cubic-bezier(.17,.67,.98,.61);
+  -ms-transition: cubic-bezier(.17,.67,.98,.61);
+  transition:  cubic-bezier(.17,.67,.98,.61);
+}
+
+/* line 247 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+#signage .resplandor1 {
+  -webkit-animation: resplandece1 3s infinite;
+  -moz-animation: resplandece1 3s infinite;
+  -o-animation: resplandece1 3s infinite;
+  -ms-animation: resplandece1 3s infinite;
+  animation: resplandece1 3s infinite;
+  -webkit-animation-delay: 290ms;
+  -moz-animation-delay: 290ms;
+  -o-animation-delay: 290ms;
+  -ms-animation-delay: 290ms;
+  animation-delay: 290ms;
+}
+
+/* line 250 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+#signage .resplandor2 {
+  -webkit-animation: resplandece1 3s infinite;
+  -moz-animation: resplandece1 3s infinite;
+  -o-animation: resplandece1 3s infinite;
+  -ms-animation: resplandece1 3s infinite;
+  animation: resplandece1 3s infinite;
+  -webkit-animation-delay: 10ms;
+  -moz-animation-delay: 10ms;
+  -o-animation-delay: 10ms;
+  -ms-animation-delay: 10ms;
+  animation-delay: 10ms;
+}
+
+/* line 253 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+#signage .resplandor3 {
+  -webkit-animation: resplandece1 3s infinite;
+  -moz-animation: resplandece1 3s infinite;
+  -o-animation: resplandece1 3s infinite;
+  -ms-animation: resplandece1 3s infinite;
+  animation: resplandece1 3s infinite;
+  -webkit-animation-delay: 5ms;
+  -moz-animation-delay: 5ms;
+  -o-animation-delay: 5ms;
+  -ms-animation-delay: 5ms;
+  animation-delay: 5ms;
+}
+
+#plan .cnt-grupo-voz{
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  width: 300px;
+  height: 600px;
+}
+
+#plan .grupo-voz{
+  position: absolute;
+  top:  0;
+  left: 0;
+  -webkit-animation: inclinar-elem 3s infinite;
+  -moz-animation: inclinar-elem 3s infinite;
+  -o-animation: inclinar-elem 3s infinite;
+  -ms-animation: inclinar-elem 3s infinite;
+  animation: inclinar-elem 3s infinite;
+  -webkit-animation-delay: 5ms;
+  -moz-animation-delay: 5ms;
+  -o-animation-delay: 5ms;
+  -ms-animation-delay: 5ms;
+  animation-delay: 5ms;
+}
+#plan .bocina{
+  position: absolute;
+  top:  0;
+  left: 0;
+  -webkit-animation: agrandar-bocina 3s infinite;
+  -moz-animation: agrandar-bocina 3s infinite;
+  -o-animation: agrandar-bocina 3s infinite;
+  -ms-animation: agrandar-bocina 3s infinite;
+  animation: agrandar-bocina 3s infinite;
+  -webkit-animation-delay: 5ms;
+  -moz-animation-delay: 5ms;
+  -o-animation-delay: 5ms;
+  -ms-animation-delay: 5ms;
+  animation-delay: 5ms;
+}
+#plan .crece1{
+  -webkit-animation: aparecer 1s cubic-bezier(.6,.01,.17,.97);
+  -moz-animation: aparecer 1s cubic-bezier(.6,.01,.17,.97);
+  -o-animation: aparecera 1s cubic-bezier(.6,.01,.17,.97);
+  -ms-animation: aparecer 1s cubic-bezier(.6,.01,.17,.97);
+  animation: aparecer 1s cubic-bezier(.6,.01,.17,.97);
+  -webkit-animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
+  -o-animation-delay: 1.5s;
+  -ms-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+   -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-transform: scale(0.2) translate(0, 0);
+  -moz-transform: scale(0.2) translate(0, 0);
+  -o-transform: scale(0.2) translate(0, 0);
+  -ms-transform:  scale(0.2) translate(0, 0);
+  opacity: 0;
+  transform: translate(50px, 180px)  scale(0.2)  translate(-50px, -180px) ;
+}
+#plan .crece2{
+  -webkit-animation: aparecer2 1s cubic-bezier(.6,.01,.17,.97) ;
+  -moz-animation: aparecer2 1s cubic-bezier(.6,.01,.17,.97);
+  -o-animation: aparecera2 1s cubic-bezier(.6,.01,.17,.97);
+  -ms-animation: aparecer2 1s cubic-bezier(.6,.01,.17,.97) ;
+  animation: aparecer2 1s cubic-bezier(.6,.01,.17,.97) ;
+  -webkit-animation-delay: 1.9s;
+  -moz-animation-delay: 1.9s;
+  -o-animation-delay: 1.9s;
+  -ms-animation-delay: 1.9s;
+  animation-delay: 1.9s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-transform: translate(280px, 140px) scale(0.2) translate(280px, 140px);
+  -moz-transform: translate(280px, 140px) scale(0.2) translate(280px, 140px);
+  -o-transform: translate(280px, 140px) scale(0.2) translate(280px, 140px);
+  -ms-transform: translate(280px, 140px) scale(0.2) translate(280px, 140px);
+  opacity: 0;
+  transform: translate(280px, 140px) scale(0.2) translate(280px, 140px);
+}
+#plan .circulos{
+  -webkit-animation: opacity1 1s cubic-bezier(.6,.01,.17,.97) ;
+  -moz-animation: opacity1 1s cubic-bezier(.6,.01,.17,.97);
+  -o-animation: opacity1 1s cubic-bezier(.6,.01,.17,.97);
+  -ms-animation: opacity1 1s cubic-bezier(.6,.01,.17,.97) ;
+  animation: opacity1 1s cubic-bezier(.6,.01,.17,.97) ;
+  -webkit-animation-delay: 2.2s;
+  -moz-animation-delay: 2.2s;
+  -o-animation-delay: 2.2s;
+  -ms-animation-delay: 2.2s;
+  animation-delay: 2.2s;
+   opacity: 0;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+
+/* line 258 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+#particles-js,
+#parallax,
+.some-space,
+.some-more-space {
+  height: 99%;
+  position: absolute;
+  width: 100%;
+}
+
+/* line 262 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+.layer1 {
+  height: 100%;
+  position: absolute;
+  width: 30%;
+  top: 0;
+  left: 0;
+}
+
+/* line 269 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+.layer2 {
+  height: 100%;
+  position: absolute;
+  width: 30%;
+  top: 0;
+  right: 0;
+}
+
+/* line 278 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+#particles-js {
+  opacity: 0.9;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+  filter: alpha(opacity=90);
+}
+
+/* line 282 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+
+/* line 283 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+#formulario h1 {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  -moz-transform: translate3d(-50%, -50%, 0);
+  -o-transform: translate3d(-50%, -50%, 0);
+  -ms-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+}
+
+#formulario .form-foot label{
+  position: relative;
+  display: block;
+}
+#formulario .form-foot input.campo{ height: 38px; box-sizing: border-box; width: 100%}
+#formulario .form-foot textarea{ height: 135px; box-sizing: border-box; }
+#formulario .form-foot .top-p{
+  position: absolute;
+  top: 7px;
+  left: 12px;
+  font-size: 11px;
+  color: #fd8e00;
+  opacity: 0;
+  transition: all 0.1s 
+}
+#formulario .form-foot input.top-placeh,
+#formulario .form-foot textarea.top-placeh,
+#formulario .form-foot input:focus,
+#formulario .form-foot textarea:focus{
+  transition: all 0.2s ease-in-out;
+  padding-top: 16px!important;
+  padding-bottom: 2px!important;
+  font-size: 14px!important;
+
+  
+}
+#formulario .form-foot input.top-placeh + .top-p,
+#formulario .form-foot textarea.top-placeh + .top-p,
+#formulario .form-foot input:focus + .top-p,
+#formulario .form-foot textarea:focus + .top-p
+{ transition: all 0.4s ease-in-out; opacity: 1; top: 2px!important; }
+
+#formulario .form-foot input:focus:placeholder,
+#formulario .form-foot textarea:focus:placeholder,
+
+{ color: transparent!important; }
+
+#formulario .form-foot input:focus::-webkit-input-placeholder,
+#formulario .form-foot textarea:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+#formulario .form-foot input:focus::-moz-placeholder,
+#formulario .form-foot textarea:focus::-moz-placeholder {
+  color: transparent;
+}
+
+
+#formulario .form-foot input:focus:-ms-input-placeholder,
+#formulario .form-foot textarea:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+
+#formulario .form-foot input:focus:-moz-placeholder,
+#formulario .form-foot textarea:focus:-moz-placeholder {
+  color: transparent;
+}
+#formulario .form-foot textarea:focus, #formulario .form-foot input:focus{
+  outline: none !important;
+  border: solid 1px #fd8e00!important;
+  box-shadow: none;
+}
+
+
+/* line 292 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+#formulario .some-space {
+  -webkit-animation: rotate 18s 0.5s infinite linear reverse;
+  -moz-animation: rotate 18s 0.5s infinite linear reverse;
+  -o-animation: rotate 18s 0.5s infinite linear reverse;
+  -ms-animation: rotate 18s 0.5s infinite linear reverse;
+  animation: rotate 18s 0.5s infinite linear reverse;
+}
+
+/* line 295 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+#formulario .some-more-space {
+  -webkit-animation: rotate 15s 0.1s infinite linear;
+  -moz-animation: rotate 15s 0.1s infinite linear;
+  -o-animation: rotate 15s 0.1s infinite linear;
+  -ms-animation: rotate 15s 0.1s infinite linear;
+  animation: rotate 15s 0.1s infinite linear;
+}
+
+/* line 298 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+@-moz-keyframes rotate {
+
+/* line 299 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+  0% {
+    -webkit-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+    -moz-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+    -o-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+    -ms-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+    transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+  }
+
+/* line 301 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+  100% {
+    -webkit-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+    -moz-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+    -o-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+    -ms-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+    transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+  }
+}
+
+/* line 298 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+@-webkit-keyframes rotate {
+
+/* line 299 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+  0% {
+    -webkit-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+    -moz-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+    -o-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+    -ms-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+    transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+  }
+
+/* line 301 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+  100% {
+    -webkit-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+    -moz-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+    -o-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+    -ms-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+    transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+  }
+}
+
+/* line 298 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+@-o-keyframes rotate {
+
+/* line 299 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+  0% {
+    -webkit-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+    -moz-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+    -o-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+    -ms-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+    transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+  }
+
+/* line 301 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+  100% {
+    -webkit-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+    -moz-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+    -o-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+    -ms-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+    transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+  }
+}
+
+/* line 298 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+@keyframes rotate {
+
+/* line 299 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+  0% {
+    -webkit-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+    -moz-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+    -o-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+    -ms-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+    transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+  }
+
+/* line 301 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\hacemos.styl */
+  100% {
+    -webkit-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+    -moz-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+    -o-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+    -ms-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+    transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+  }
+}
+
+
+.prueba{
+  background: #000!important
+}

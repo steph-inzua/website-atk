@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es"><a href=""></a>
+	<head>
+		<meta charset="UTF-8">
+		<meta charset="utf8" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0" />
+		<link rel="icon" href="img/icono.png" type="image/png">
+		<link rel="shortcut icon" href="img/icono.png" />
+		<title>Atomikal Digital Marketing</title>
+		<link rel="stylesheet" href="css/general.css">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/registro.css" media="screen" title="estilo">
+		<script>
+			document.createElement("picture");
+		</script>
+	</head>
+	<body id="page" onload="initialize()">
+		<!--<body  onload="initialize()">-->
+		<header class="encabezado">
+			<div class="navigation menu">
+				<label class="control" for="control-menu">
+					<div class="icon">
+						<span></span>
+					</div>
+				</label>
+				<div class="lista">
+					<div class="contiene-lista">
+						<div class="logo-atk-menu">
+							<a href="index.html">
+								<div align="center">
+									<img src="img/atk-digital-marketing-blanco.png" alt="Atomikal Digital Marketing" />
+								</div>
+							</a>
+						</div>
+						<nav class="nav-lista">
+							<ul>
+								<li>
+									<a href="quienes-somos.html">Quiénes somos</a>
+								</li>
+								<li>
+									<a href="que-hacemos.html" class="activo">Qué hacemos</a>
+								</li>
+								<li>
+									<a href="nuestros-proyectos.html">Nuestros proyectos</a>
+								</li>
+								<li>
+									<a href="blog.html">Blog</a>
+								</li>
+								<li>
+									<a href="contacto.html">Contacto</a>
+								</li>
+							</ul>
+						</nav>
+						<aside class="contacto">
+							<div class="redes-sociales">
+								<a href="#">
+									<span class="icon-rs-ins"></span>
+								</a>
+								<a href="#">
+									<span class="icon-rs-fb"></span>
+								</a>
+								<a href="#">
+									<span class="icon-rs-tw"></span>
+								</a>
+								<a href="#">
+									<span class="icon-rs-in"></span>
+								</a>
+							</div>
+							<ul>
+								<li>
+									<span class="icon-telefonos ico-web"></span> 01 421-3313</li>
+								<li>
+									<span class="icon-email ico-web"></span> contacto@atomikal.com</li>
+								<li>
+									<span class="icon-direccion ico-web"></span> Calle Mariano Melgar #225, Miraflores</li>
+							</ul>
+						</aside>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section class="pagina">
+			<article id="cuerpo">
+				<section id="slider">
+					<div class="conoce">
+						<div class="titles">
+							<div class="pasa-s">
+								<img src="img/conoce-el.png" />
+							</div>
+							<div class="reto">
+								<img src="img/reto-cinemark.png" />
+							</div>
+						</div>
+						<p>Grábate dándole un abrazo a cinco personas en Cinemark, sube el video a tus redes sociales y comparte el enlace en el formulario de registro.</p>
+						<img src="img/video.png" /> </div>
+					<div class="registro">
+						<p>Si ya tienes tu video completa el registro.</p>
+						<form action="registro/" method="POST">
+							<div class="table-form">
+								<div class="label">
+									<div class="campo">
+										<span class="t-input nombre"></span>
+										<input class="txt camp" type="text" name="nombre" minlength=3 required pattern="[a-z ñáéíóú]+" placeholder="Nombres">
+									</div>
+									<div class="campo">
+										<span class="t-input apellido"></span>
+										<input class="txt camp" type="text" name="apellido" minlength=3 required pattern="[a-z ñáéíóú]+" placeholder="Apellidos"> </div>
+									<div class="campo">
+										<span class="t-input telefono"></span>
+										<input class="txt camp" data-restriccion="^[0-9]+$" type="tel" name="telefono" r minlength=8 maxlength=12 placeholder="Teléfono/Celular"> </div>
+								</div>
+								<div class="label">
+									<div class="campo">
+										<span class="t-input destino"></span>
+										<select class="camp select-p" name="destino" required>
+											<option value="" selected disabled>Ciudad</option>
+											<option value="1">Lima</option>
+											<option value="2">Huacho</option>
+										</select>
+									</div>
+									<div class="campo">
+										<span class="t-input dni"></span>
+										<input class="txt camp" type="tel" name="dni" required pattern="[0-9]+" minlength=8 maxlength=8 placeholder="DNI"> </div>
+									<div class="campo">
+										<span class="t-input direcc"></span>
+										<input class="txt camp" type="text" name="correo" required minlength=10 placeholder="Dirección"> </div>
+								</div>
+							</div>
+							<div class="table-form">
+								<div class="campo select-f">
+									<span class="t-input url"></span>
+									<input class="txt camp" type="text" name="telefono" minlength=8 placeholder="Copia el URL aquí..."> </div>
+							</div>
+							<div class="busca">
+								<span>BUSCA EL LINK DE TU VIDEO EN:</span>
+								<a href="#facebook">
+									<img src="img/fb.png" />
+								</a>
+								<a href="#instagram">
+									<img src="img/instagram.png" />
+								</a>
+								<a href="#youtube">
+									<img src="img/yt.png" />
+								</a>
+							</div>
+							<div class="table-form">
+								<div class="acepto">
+									<input type="checkbox" name="acepto" id="acepto" required> Acepto
+									<a href="#bases-de-concurso">términos y condiciones</a>
+								</div>
+								<button type="submit" class="btn4">
+									<span>REGISTRATE</span>
+									<img src="img/next-2.png" />
+								</button>
+							</div>
+						</form>
+					</div>
+				</section>
+			</article>
+		</section>
+		<footer id="footer">
+			<div class="contenedor">
+				<div class="copy">© Copyright 2017 - Atomikal</div>
+				<aside class="social">
+					<a href="#">
+						<span class="icon-rs-ins"></span>
+					</a>
+					<a href="#">
+						<span class="icon-rs-fb"></span>
+					</a>
+					<a href="#">
+						<span class="icon-rs-tw"></span>
+					</a>
+					<a href="#">
+						<span class="icon-rs-in"></span>
+					</a>
+				</aside>
+			</div>
+		</footer>
+		<script type="text/javascript" src="js/picturefill.min.js" async></script>
+		<script type="text/javascript" src="js/general.js" async defer></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+		<script src="js/registro.js" defer></script>
+	</body>
+</html>

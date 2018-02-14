@@ -1,0 +1,493 @@
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  body {
+    background: #fff;
+  }
+}
+
+/* line 7 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\contacto.styl */
+#particles-js,
+#parallax,
+.some-space,
+.some-more-space {
+  height: 35%;
+  position: absolute;
+  width: 40%;
+  top: 0;
+  z-index: -1;
+}
+
+/* line 13 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\contacto.styl */
+.layer1 {
+  height: 35%;
+  position: absolute;
+  width: 25%;
+  top: 0;
+  left: 0;
+}
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  .layer1 {
+    height: 100px;
+    width: 100%;
+  }
+}
+
+/* line 23 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\contacto.styl */
+.layer2 {
+  height: 35%;
+  position: absolute;
+  width: 25%;
+  top: 0;
+  right: 0;
+}
+
+/* line 31 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\contacto.styl */
+#particles-js {
+  opacity: 0.9;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+  filter: alpha(opacity=90);
+}
+
+/* line 35 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\contacto.styl */
+.contenedor {
+  max-width: 1000px;
+}
+
+.contactate{
+  color: #5f5f5f;
+  font-size: 19px;
+  font-weight: 700; 
+  text-align:  center;
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .contactate {
+    display: block;
+  }
+}
+  .head-tit{
+    display: block;
+  }
+@media only screen and (max-width: 768px) {
+  .head-tit h2, .head-tit h3{
+    display: none;
+  }
+}
+/* line 37 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\contacto.styl */
+.metodos-contacto {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -o-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  border-top: 1px solid rgba(0,0,0,0.12);
+  margin-top: 25px;
+  padding-top: 35px;
+  padding-bottom: 15px;
+}
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  .metodos-contacto {
+    display: block;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-bottom: 0;
+    border-top: none;
+    padding-top: 0;
+  }
+}
+
+/* line 50 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\contacto.styl */
+.metodos-contacto .formulario {
+  padding-right: 80px;
+  width: 50%;
+  
+}
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  .metodos-contacto .formulario {
+    width: 100%;
+  }
+}
+
+/* line 55 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\contacto.styl */
+
+/* line 56 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\contacto.styl */
+.metodos-contacto .formulario .form-label.dos-col {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -o-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  .metodos-contacto .formulario .form-label.dos-col {
+    display: block;
+  }
+}
+.metodos-contacto .formulario label{
+  position: relative;
+}
+.metodos-contacto .formulario .top-p{
+  position: absolute;
+  top: 7px;
+  left: 18px;
+  font-size: 11px;
+  color: #fd8e00;
+  opacity: 0;
+  transition: all 0.1s 
+}
+.metodos-contacto .formulario input.top-placeh,
+.metodos-contacto .formulario textarea.top-placeh,
+.metodos-contacto .formulario input:focus,
+.metodos-contacto .formulario textarea:focus{
+  transition: all 0.2s ease-in-out;
+  padding-top: 16px!important;
+  padding-bottom: 2px!important;
+  font-size: 14px!important;
+
+  
+}
+.metodos-contacto .formulario input.top-placeh + .top-p,
+.metodos-contacto .formulario textarea.top-placeh + .top-p,
+.metodos-contacto .formulario input:focus + .top-p,
+.metodos-contacto .formulario textarea:focus + .top-p
+{ transition: all 0.4s ease-in-out; opacity: 1; top: 2px!important; }
+
+.metodos-contacto .formulario input:focus:placeholder,
+.metodos-contacto .formulario textarea:focus:placeholder,
+
+{ color: transparent!important; }
+
+.metodos-contacto .formulario input:focus::-webkit-input-placeholder,
+.metodos-contacto .formulario textarea:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.metodos-contacto .formulario input:focus::-moz-placeholder,
+.metodos-contacto .formulario textarea:focus::-moz-placeholder {
+  color: transparent;
+}
+
+
+.metodos-contacto .formulario input:focus:-ms-input-placeholder,
+.metodos-contacto .formulario textarea:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+
+.metodos-contacto .formulario input:focus:-moz-placeholder,
+.metodos-contacto .formulario textarea:focus:-moz-placeholder {
+  color: transparent;
+}
+
+.metodos-contacto .formulario .form-label.dos-col .campo {
+  width: 220px;
+  
+}
+.metodos-contacto input:focus, .metodos-contacto textarea:focus{
+  outline: none !important;
+  border: solid 1px #fd8e00!important;
+  box-shadow: none;
+}
+.metodos-contacto input:placeholder{
+  transition: all 0.2s ease-in-out;
+}
+
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  .metodos-contacto .formulario .form-label.dos-col .campo {
+    width: 100%;
+  }
+}
+
+/* line 65 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\contacto.styl */
+.metodos-contacto .formulario .form-label label {
+  padding: 0 5px;
+  display: block;
+}
+
+/* line 70 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\contacto.styl */
+.metodos-contacto .formulario .campo {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  font-family: "Muli";
+  border: none;
+  padding: 8px 12px;
+  border: 1px solid rgba(0,0,0,0.3);
+  margin-bottom: 14px;
+  font-size: 1rem;
+  height: 40px;
+}
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  .metodos-contacto .formulario .campo {
+    font-size: 0.75rem;
+    padding: 10px 12px;
+    margin-bottom: 7px;
+  }
+}
+
+/* line 84 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\contacto.styl */
+.metodos-contacto .formulario .campo.textarea {
+  width: 100%;
+  font-family: "Muli";
+  resize: none;
+  height: 118px;
+}
+
+/* line 88 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\contacto.styl */
+.metodos-contacto .formulario .w-100 {
+  padding: 0 5px;
+  display: block;
+}
+
+.metodos-contacto .formulario .enviar {
+  padding: 9px 30px;  
+  text-align: center;
+  cursor: pointer;
+}
+.metodos-contacto .formulario .enviar .sig{ opacity: 1; color: #fff; }
+
+
+/* line 92 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\contacto.styl */
+.metodos-contacto .box-texto {
+  padding: 40px 35px;
+  text-align: center;
+  max-width: 245px;
+  margin-left: -55px;
+  background: #fff;
+}
+.metodos-contacto .mapa {
+  margin-top: -5px;
+}
+/* line 98 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\contacto.styl */
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  .metodos-contacto .mapa {
+    margin-left: -27px;
+    margin-right: -27px;
+  }
+}
+
+/* line 102 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\contacto.styl */
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  .metodos-contacto .mapa ul {
+    padding: 25px;
+  }
+}
+
+/* line 105 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\contacto.styl */
+.metodos-contacto .mapa ul li {
+  margin: 4px 0;
+}
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  .metodos-contacto .mapa ul li {
+    font-size: 0.8125rem;
+  }
+}
+
+/* line 109 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\contacto.styl */
+.metodos-contacto .mapa ul li span {
+  margin-right: 8px;
+}
+
+@media only screen and (max-width: 768px) {
+  .metodos-contacto .mapa ul li span{
+    margin-right: 6px;
+  }
+}
+
+
+/* line 111 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\contacto.styl */
+.metodos-contacto .mapa #map_canvas {
+  margin-top: 7px;
+  width: 440px;
+  height: 170px;
+}
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  .metodos-contacto .mapa #map_canvas {
+    height: 260px;
+    width: 100%;
+  }
+}
+
+/* line 120 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\contacto.styl */
+#particles-js,
+#parallax,
+.layer,
+.some-space,
+.some-more-space {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.layer{
+  height: calc( 100% - 30px );
+}
+
+/* line 125 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\contacto.styl */
+#particles-js {
+  opacity: 0.9;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+  filter: alpha(opacity=90);
+}
+
+/* line 129 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\contacto.styl */
+
+/* line 130 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\contacto.styl */
+#formulario h1 {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  -moz-transform: translate3d(-50%, -50%, 0);
+  -o-transform: translate3d(-50%, -50%, 0);
+  -ms-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+}
+
+/* line 139 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\contacto.styl */
+#formulario .some-space {
+  -webkit-animation: rotate 18s 0.5s infinite linear reverse;
+  -moz-animation: rotate 18s 0.5s infinite linear reverse;
+  -o-animation: rotate 18s 0.5s infinite linear reverse;
+  -ms-animation: rotate 18s 0.5s infinite linear reverse;
+  animation: rotate 18s 0.5s infinite linear reverse;
+}
+
+/* line 142 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\contacto.styl */
+#formulario .some-more-space {
+  -webkit-animation: rotate 15s 0.1s infinite linear;
+  -moz-animation: rotate 15s 0.1s infinite linear;
+  -o-animation: rotate 15s 0.1s infinite linear;
+  -ms-animation: rotate 15s 0.1s infinite linear;
+  animation: rotate 15s 0.1s infinite linear;
+}
+
+/* line 145 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\contacto.styl */
+@-moz-keyframes rotate {
+
+/* line 146 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\contacto.styl */
+  0% {
+    -webkit-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+    -moz-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+    -o-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+    -ms-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+    transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+  }
+
+/* line 148 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\contacto.styl */
+  100% {
+    -webkit-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+    -moz-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+    -o-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+    -ms-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+    transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+  }
+}
+
+/* line 145 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\contacto.styl */
+@-webkit-keyframes rotate {
+
+/* line 146 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\contacto.styl */
+  0% {
+    -webkit-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+    -moz-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+    -o-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+    -ms-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+    transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+  }
+
+/* line 148 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\contacto.styl */
+  100% {
+    -webkit-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+    -moz-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+    -o-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+    -ms-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+    transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+  }
+}
+
+/* line 145 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\contacto.styl */
+@-o-keyframes rotate {
+
+/* line 146 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\contacto.styl */
+  0% {
+    -webkit-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+    -moz-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+    -o-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+    -ms-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+    transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+  }
+
+/* line 148 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\contacto.styl */
+  100% {
+    -webkit-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+    -moz-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+    -o-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+    -ms-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+    transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+  }
+}
+
+/* line 145 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\contacto.styl */
+@keyframes rotate {
+
+/* line 146 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\contacto.styl */
+  0% {
+    -webkit-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+    -moz-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+    -o-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+    -ms-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+    transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+  }
+
+/* line 148 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\contacto.styl */
+  100% {
+    -webkit-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+    -moz-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+    -o-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+    -ms-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+    transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+  }
+}
+

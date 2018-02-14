@@ -1,0 +1,173 @@
+
+/* line 117 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\slick.styl */
+
+/* line 1 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\node_modules\stylus\lib\functions\index.styl */
+
+/* line 1 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\slick.styl */
+/* Slider */
+
+/* line 2 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\slick.styl */
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* line 21 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\slick.styl */
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 31 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\slick.styl */
+.slick-list:focus {
+  outline: none;
+}
+
+/* line 35 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\slick.styl */
+.slick-list.dragging {
+  cursor: pointer;
+  cursor: hand;
+}
+
+/* line 41 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\slick.styl */
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* line 51 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\slick.styl */
+.slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+}
+
+/* line 59 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\slick.styl */
+.slick-track:before,
+.slick-track:after {
+  display: table;
+  content: '';
+}
+
+/* line 66 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\slick.styl */
+.slick-track:after {
+  clear: both;
+}
+
+/* line 70 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\slick.styl */
+.slick-loading .slick-track {
+  visibility: hidden;
+}
+
+/* line 75 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\slick.styl */
+.slick-slide {
+  /*display: none;*/
+  float: left;
+  
+  
+  min-height: 1px;
+  background-size: cover!important;
+}
+
+/* line 83 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\slick.styl */
+[dir='rtl'] .slick-slide {
+  float: right;
+}
+
+/* line 87 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\slick.styl */
+.slick-slide img {
+  display: block;
+}
+
+/* line 91 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\slick.styl */
+.slick-slide.slick-loading img {
+  display: none;
+}
+
+/* line 95 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\slick.styl */
+.slick-slide.dragging img {
+  pointer-events: none;
+}
+
+/* line 99 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\slick.styl */
+.slick-initialized .slick-slide {
+  display: block;
+}
+
+/* line 103 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\slick.styl */
+.slick-loading .slick-slide {
+  visibility: hidden;
+}
+
+/* line 107 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\slick.styl */
+.slick-vertical .slick-slide {
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
+}
+
+/* line 115 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\slick.styl */
+.slick-arrow.slick-hidden {
+  display: none;
+}
+.slider-background .slick-active{
+  -webkit-animation: myMove 0.8s 1 ease-in-out;
+  -moz-animation: myMove 0.8s 1 ease-in-out;
+  -o-animation: myMove 0.8s 1 ease-in-out;
+  -ms-animation: myMove 0.8s 1 ease-in-out;
+  -webkit-animation: myMove 0.8s 1 ease-in-out;
+  -moz-animation: myMove 0.8s 1 ease-in-out;
+  -o-animation: myMove 0.8s 1 ease-in-out;
+  -ms-animation: myMove 0.8s 1 ease-in-out;
+  animation: myMove 0.8s 1 ease-in-out;
+
+}
+.slider-img-items .slick-active img{
+  -webkit-animation: up-slide 0.5s 1 ease-in-out;
+  -moz-animation: up-slide 0.5s 1 ease-in-out;
+  -o-animation: up-slide 0.5s 1 ease-in-out;
+  -ms-animation: up-slide 0.5s 1 ease-in-out;
+  -webkit-animation: up-slide 0.5s 1 ease-in-out;
+  -moz-animation: up-slide 0.5s 1 ease-in-out;
+  -o-animation: up-slide 0.5s 1 ease-in-out;
+  -ms-animation: up-slide 0.5s 1 ease-in-out;
+  animation: up-slide 0.5s 1 ease-in-out;
+}
+.slider-img-items .slick-active figcaption{
+  -webkit-animation: fadeInDown ;
+  -moz-animation: fadeInDown ;
+  -o-animation: fadeInDown ;
+  -ms-animation: fadeInDown ;
+  animation: fadeInDown ;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  -ms-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-duration: 0.2s, 0.2s, 0.2s, 0.2s, 0.2s;
+  -moz-animation-duration: 0.2s, 0.2s, 0.2s, 0.2s, 0.2s;
+  -o-animation-duration: 0.2s, 0.2s, 0.2s, 0.2s, 0.2s;
+  -ms-animation-duration: 0.2s, 0.2s, 0.2s, 0.2s, 0.2s;
+  animation-duration: 0.2s, 0.2s, 0.2s, 0.2s, 0.2s;
+  animation-delay: 0.5s;
+  opacity: 1;
+  animation-fill-mode: forwards;
+}

@@ -1,0 +1,299 @@
+
+body {
+  background: #f3f3f3;
+}
+
+/* line 6 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\quienes.styl */
+.informacion {
+
+  position: relative;
+  height: 380px;
+  max-width: 880px;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  .informacion {
+    display: block;
+    margin-left: -10px;
+    margin-right: -10px;
+    height: auto;
+  }
+}
+
+/* line 14 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\quienes.styl */
+.informacion .box-texto {
+  padding: 40px 35px;
+  text-align: center;
+  max-width: 245px;
+  margin-left: -55px;
+  background: #fff;
+}
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  .informacion .box-texto {
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    top: -40px;
+    padding: 20px 25px;
+    max-width: 545px;
+  }
+}
+
+/* line 31 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\quienes.styl */
+#particles-js,
+#parallax,
+.some-space,
+.some-more-space {
+  height: 99%;
+  position: absolute;
+  width: 100%;
+}
+
+/* line 35 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\quienes.styl */
+.layer1 {
+  height: 100%;
+  position: absolute;
+  width: 30%;
+  top: 0;
+  left: 0;
+}
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  .layer1 {
+    height: 180px;
+    width: 100%;
+  }
+}
+
+/* line 48 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\quienes.styl */
+.layer2 {
+  height: 100%;
+  position: absolute;
+  width: 30%;
+  top: 0;
+  right: 0;
+}
+@media only screen and (max-width: 768px) {
+
+/* line 78 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\base\utiles.styl */
+  .layer2 {
+    height: 100px;
+    width: 100%;
+    top: auto;
+    bottom: 0;
+  }
+}
+
+/* line 60 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\quienes.styl */
+#particles-js {
+  opacity: 0.9;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+  filter: alpha(opacity=90);
+}
+
+/* line 64 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\quienes.styl */
+
+/* line 65 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\quienes.styl */
+#formulario h1 {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  -moz-transform: translate3d(-50%, -50%, 0);
+  -o-transform: translate3d(-50%, -50%, 0);
+  -ms-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+}
+
+#formulario .form-foot label{
+  position: relative;
+  display: block;
+}
+#formulario .form-foot input.campo{ height: 38px; box-sizing: border-box; width: 100%}
+#formulario .form-foot textarea{ height: 135px; box-sizing: border-box; }
+#formulario .form-foot .top-p{
+  position: absolute;
+  top: 7px;
+  left: 12px;
+  font-size: 11px;
+  color: #fd8e00;
+  opacity: 0;
+  transition: all 0.1s 
+}
+#formulario .form-foot input.top-placeh,
+#formulario .form-foot textarea.top-placeh,
+#formulario .form-foot input:focus,
+#formulario .form-foot textarea:focus{
+  transition: all 0.2s ease-in-out;
+  padding-top: 16px!important;
+  padding-bottom: 2px!important;
+  font-size: 14px!important;
+
+  
+}
+#formulario .form-foot input.top-placeh + .top-p,
+#formulario .form-foot textarea.top-placeh + .top-p,
+#formulario .form-foot input:focus + .top-p,
+#formulario .form-foot textarea:focus + .top-p
+{ transition: all 0.4s ease-in-out; opacity: 1; top: 2px!important; }
+
+#formulario .form-foot input:focus:placeholder,
+#formulario .form-foot textarea:focus:placeholder,
+
+{ color: transparent!important; }
+
+#formulario .form-foot input:focus::-webkit-input-placeholder,
+#formulario .form-foot textarea:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+#formulario .form-foot input:focus::-moz-placeholder,
+#formulario .form-foot textarea:focus::-moz-placeholder {
+  color: transparent;
+}
+
+
+#formulario .form-foot input:focus:-ms-input-placeholder,
+#formulario .form-foot textarea:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+
+#formulario .form-foot input:focus:-moz-placeholder,
+#formulario .form-foot textarea:focus:-moz-placeholder {
+  color: transparent;
+}
+#formulario .form-foot textarea:focus, #formulario .form-foot input:focus{
+  outline: none !important;
+  border: solid 1px #fd8e00!important;
+  box-shadow: none;
+}
+
+#formulario .some-space {
+  -webkit-animation: rotate 18s 0.5s infinite linear reverse;
+  -moz-animation: rotate 18s 0.5s infinite linear reverse;
+  -o-animation: rotate 18s 0.5s infinite linear reverse;
+  -ms-animation: rotate 18s 0.5s infinite linear reverse;
+  animation: rotate 18s 0.5s infinite linear reverse;
+}
+
+/* line 77 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\quienes.styl */
+#formulario .some-more-space {
+  -webkit-animation: rotate 15s 0.1s infinite linear;
+  -moz-animation: rotate 15s 0.1s infinite linear;
+  -o-animation: rotate 15s 0.1s infinite linear;
+  -ms-animation: rotate 15s 0.1s infinite linear;
+  animation: rotate 15s 0.1s infinite linear;
+}
+
+/* line 80 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\quienes.styl */
+@-moz-keyframes rotate {
+
+/* line 81 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\quienes.styl */
+  0% {
+    -webkit-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+    -moz-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+    -o-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+    -ms-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+    transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+  }
+
+/* line 83 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\quienes.styl */
+  100% {
+    -webkit-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+    -moz-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+    -o-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+    -ms-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+    transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+  }
+}
+
+/* line 80 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\quienes.styl */
+@-webkit-keyframes rotate {
+
+/* line 81 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\quienes.styl */
+  0% {
+    -webkit-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+    -moz-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+    -o-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+    -ms-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+    transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+  }
+
+/* line 83 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\quienes.styl */
+  100% {
+    -webkit-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+    -moz-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+    -o-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+    -ms-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+    transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+  }
+}
+
+/* line 80 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\quienes.styl */
+@-o-keyframes rotate {
+
+/* line 81 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\quienes.styl */
+  0% {
+    -webkit-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+    -moz-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+    -o-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+    -ms-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+    transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+  }
+
+/* line 83 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\quienes.styl */
+  100% {
+    -webkit-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+    -moz-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+    -o-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+    -ms-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+    transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+  }
+}
+
+/* line 80 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\quienes.styl */
+@keyframes rotate {
+
+/* line 81 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\quienes.styl */
+  0% {
+    -webkit-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+    -moz-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+    -o-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+    -ms-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+    transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+  }
+
+/* line 83 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\quienes.styl */
+  100% {
+    -webkit-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+    -moz-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+    -o-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+    -ms-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+    transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+  }
+}
+
+.img-p {
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+.b-text {
+  position: absolute;
+  top: 30px;
+  right: 0;
+}
+@media only screen and (max-width: 768px) {
+  .img-p, .b-text  {
+    position: static;
+    top: 0!important;
+    }
+}
+ 

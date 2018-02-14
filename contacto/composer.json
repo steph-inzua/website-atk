@@ -1,0 +1,19 @@
+{
+	"name": "atk/web",
+	"type": "project",
+	"license": "mit",
+	"authors": [
+		{
+			"name": "Joffre Sanchez",
+			"email": "blashstar@gmail.com"
+		}
+	],
+	"require": {
+		"bcosca/fatfree": "^3.6"
+	},
+	"autoload": {
+		"psr-4": {"": "app/"}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}

@@ -1,0 +1,276 @@
+body {
+  background: #f8f8f8;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background: #f0f0f0;
+  }
+}
+/* line 6 : D:\Atomikal\Atomikal web 2017\Software\atk-web.git\codigo\stylus\det-proyecto.styl */
+.cabecera-blog{
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+   background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+.head-tit{
+  position:  absolute;
+  top: 0;
+  width: 100%;
+}
+.cabecera-blog{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  align-items:  center;
+}
+.cabecera-blog.cabecera-1{
+  background: url("../img/blog/banner-blog-01.jpg") center center no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+.cabecera-blog.cabecera-2{
+  background: url("../img/blog/banner-blog-02.jpg") center center no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+.descrip-banner{
+  width:  100%;
+  text-align: left;
+  position: relative;
+}
+.descrip-banner a{ position: absolute; width: 100%; height: 100vh; display: block; }
+.descrip-banner .contenedor{ max-width: 1200px }
+.descrip-banner .frase1{ max-width: 500px; margin-top: 70px; float: left; }
+.descrip-banner .frase2{ max-width: 500px; margin-top: 70px; float: right; }
+.descrip-banner h2{ color: #fff; font-weight:  400; font-size:  24px; }
+.descrip-banner span{ display: block; font-weight:  600;  font-size:  33px;  margin: 5px 0; margin-left: 15px; }
+.descrip-banner p{ color: #fff; font-size:  21px; text-align: justify; line-height: 32px; margin-left: 15px;}
+
+@media only screen and (max-width: 768px) {
+  .descrip-banner .frase1, .descrip-banner .frase2{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .descrip-banner h2, .descrip-banner span, .descrip-banner p{ color: #5f5f5f; margin-left: 0;}
+  .descrip-banner h2{font-size: 17px; margin-bottom: 14px;}
+  .descrip-banner span{font-size: 20px;  margin: 0}
+  .descrip-banner p{ font-size: 14px;  line-height: 17px;  }
+
+}
+
+.parallax {
+  position: fixed;
+}
+ 
+
+/* blog */
+.contenido-blog{
+  padding: 60px 0;
+  
+ 
+}
+.blog-item{
+  position:  relative;
+  height: 450px;
+}
+.blog-item-ultimo{
+ height: 150px; 
+}
+@media only screen and (max-width: 768px) {
+  .blog-item{
+    position:  relative;
+    height: auto;
+    margin-bottom: 40px;
+  }
+}
+.blog-item .box-blog{
+  position: absolute;
+  background: #fff;
+}
+@media only screen and (max-width: 768px) {
+  .blog-item .box-blog{
+    position: static;
+     width: 97%;
+    margin: -30px auto 0 auto;
+    z-index: 999;
+
+   }
+}
+  
+
+.blog-item .box-blog.posi01{
+  right: 120px;
+  top: 47px;
+}
+@media only screen and (max-width: 768px) {
+  .blog-item .box-blog.posi01{
+    right: 0;
+    top: -5px;
+    position: relative;
+    z-index: 4;
+  }
+}
+.blog-item .box-blog.posi02{
+  left: 80px;
+  top: 47px;
+}
+@media only screen and (max-width: 768px) {
+  .blog-item .box-blog.posi02{
+    left: 0;
+    top: -5px;
+    position: relative;
+    z-index: 4;
+  }
+}
+.blog-item .box-blog .blog-int{
+  display: table-cell;
+  vertical-align: middle;
+  padding: 35px 30px;
+  text-align: center;
+  width: 316px;
+  box-sizing: border-box;
+}
+.blog-item .box-blog .blog-int:hover h2{
+  color: #fd8e00;
+  transition: all .4s;
+}
+.blog-item .box-blog   a{
+  color: #5f5f5f;
+}
+@media only screen and (max-width: 768px) {
+    .blog-item .box-blog .blog-int{
+      width: 100%;
+    }
+} 
+
+.blog-item .box-blog h2{
+  color: #5f5f5f;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.blog-item .box-blog p{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: justify;
+}
+@media only screen and (max-width: 768px) {
+  .blog-item .box-blog p{
+    font-size: 13px;
+  }
+}
+.blog-item .imagen-blog{
+  
+  position: absolute;
+}
+@media only screen and (max-width: 768px) {
+  .blog-item .imagen-blog{
+    position: static;
+    margin: 0 -10px;
+   }
+}
+
+
+.blog-item .imagen-blog.posi01{
+  left: 60px;
+  top: 17px;
+}
+.blog-item .imagen-blog.posi02{
+  right: 110px;
+  top: 17px;
+}
+
+
+#menu-inferior{
+  background: #fff;
+}
+#menu-inferior .contenedor{
+  
+  margin:  0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding:  40px 0;
+}
+#menu-inferior .contenedor .col{
+  width: 26%;
+  margin:  0 40px;
+}
+@media only screen and (max-width: 768px) {
+  #menu-inferior .contenedor .col{
+    width: 100%;
+    margin:  0 30px 10px 30px;
+  }
+}
+
+#menu-inferior .contenedor .col h5{
+  color: #ff8f00;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  #menu-inferior .contenedor .col h5{
+    font-size: 13px;
+    text-align: left;
+  }
+}
+
+#menu-inferior .contenedor .col li a{
+  color: #696969;
+  font-size: 14px;
+  font-weight: 600;
+}
+@media only screen and (max-width: 768px) {
+  #menu-inferior .contenedor .col li a{
+    font-size: 12px;
+  }
+}
+#menu-inferior .contenedor .etiquetas{
+  margin: 10px 0;
+}
+#menu-inferior .contenedor .etiquetas a{
+  background: #ffedd5;
+  display:  inline-block;
+  color: #696969;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 5px 15px;
+  font-size: 13px;
+  margin: 5px 4px;
+}
+#menu-inferior a:hover{
+  color: #ff8f00 !important;
+}
+
+ 
+
+
+.parallax-lvl-0, .parallax-lvl-1, .parallax-lvl-2, .parallax-lvl-3 {
+  position: absolute;
+  top: 100px;
+}
+@media only screen and (max-width: 768px) {
+  .parallax-lvl-0, .parallax-lvl-1, .parallax-lvl-2, .parallax-lvl-3 {
+    position: static;
+    top: 0!important;
+    }
+}
+ 
